@@ -1,0 +1,118 @@
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.navbar-brand {
+    font-size: 22px;
+}
+td, div {
+    text-align: left;
+}
+.img-responsive {
+    height: 200px;
+    width: 200px;
+}
+h2 {
+    text-align: justify;
+}
+.jumbotron {
+    background-color: #e56717;
+    color: #ffffff;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.pull-right {
+    padding-top: 8px;
+}
+
+#runners-logo{
+   position:absolute;
+   right:30px;
+   width:80px;
+   border:0;
+}
+
+#photo{
+  width:500px;
+  height:400px;
+  margin-bottom:20px;
+}
+
+.promo #quo{
+  font-size:2.3em;
+}
+.promo h2{
+  font-size:1.9em;
+  font-family:'Trebuchet MS';
+}
+.promo h3{
+  font-size:1.2em;
+  font-family:'Comic Sans MS';
+}
+.thumbnail{
+ background-color:white;
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+/*body{
+	background-image:url(../images/sunshine.jpg);
+	background-repeat: repeat-y;
+}*/
+/*Social Icons */
+
+.social-icon {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.fa-facebook {
+    background: none repeat scroll 0 0 #3b5998;
+}
+.fa-twitter {
+    background: none repeat scroll 0 0 #4099ff;
+}
+.fa-google-plus {
+    background: none repeat scroll 0 0 #d34836;
+}
+
+/* Footer */
+
+footer {
+     background-color: #e56717;
+}
+
+footer .container{
+    height: 30px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	color:white;
+    text-align: center;
+}
+
+/* Tables */
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}

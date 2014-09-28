@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="col-md-6" ng-repeat="number in numbers">
+     <a href="#/photodetail/{{number}}.jpg"><img ng-src="photos/{{number}}.jpg" id="photo"/></a>
+  </div>
+  <div ng-include='"partials/comments.html"'></div>
+</div>
