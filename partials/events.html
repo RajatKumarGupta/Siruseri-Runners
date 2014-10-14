@@ -1,10 +1,9 @@
-<div class="container">
+<div class="container" id="content">
+  <h1 class="text-center">Upcoming Events</h1><hr class="style-star"/>
    <div class="col-md-8">
 		<div class="well" ng-repeat="marathon in marathons">
 		    <img ng-src="images/dream-runners.jpg" id="runners-logo"/>
-            <h3><i class="fa fa-calendar"></i>&nbsp;{{marathon.name}}</h3>
-			<p>{{marathon.date}}</p>
-			<p>{{marathon.description}}</p>
+            <h3><i class="fa fa-calendar"></i>&nbsp;{{marathon}}</h3>
 	   </div>
    </div>
    <div ng-include='"partials/comments.html"'></div>

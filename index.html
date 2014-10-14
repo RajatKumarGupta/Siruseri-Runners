@@ -3,7 +3,7 @@
 <head>
 
     <!-- Meta-Information -->
-    <title>AngularJS Demo</title>
+    <title>Sirusei Runners</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="IndustryVertical">
@@ -12,7 +12,6 @@
     <!-- Vendor: Bootstrap and Font Awesome Stylesheets http://getbootstrap.com -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
     <!-- Our Website CSS Styles -->
     <link rel="stylesheet" href="css/main.css">
 
@@ -22,10 +21,10 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-
+ 
 <!-- Our Website Content Goes Here -->
 <div ng-include='"templates/header.html"'></div>
-<div ui-view></div>
+<div ui-view class="view-animate"></div>
 <div ng-include='"templates/footer.html"'></div>
 
 <!-- Vendor: Javascripts -->
@@ -36,7 +35,7 @@
 <script src="lib/angular.min.js"></script>
 <script src="lib/angular-route.min.js"></script>
 <script src="lib/angular-ui-router.min.js"></script>
-
+<script data-require="angular-ui-bootstrap@0.3.0" data-semver="0.3.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>
 <!-- Our Website Javascripts -->
 <script src="js/app.js"></script>
 <script src="js/controller.js"></script>

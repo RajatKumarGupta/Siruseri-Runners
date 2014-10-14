@@ -1,6 +1,7 @@
-<div class="container">
-  <div class="col-md-6" ng-repeat="number in numbers">
-     <a href="#/photodetail/{{number}}.jpg"><img ng-src="photos/{{number}}.jpg" id="photo"/></a>
+<div class="container" id="content">
+  <h1 class="text-center">Gallery & Running Albums </h1><hr class="style-star"/>
+  <div class="col-md-6" ng-repeat="photo in photos">
+     <a href="#/photodetail/{{photo}}"><img ng-src="photos/{{photo}}" id="photo"/></a>
   </div>
   <div ng-include='"partials/comments.html"'></div>
 </div>

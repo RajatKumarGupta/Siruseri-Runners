@@ -10,9 +10,10 @@ var app = angular.module('angularjs', ['ngRoute','ui.router','angularjs.controll
 app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
      // Home  
-    .state('home', {url: "/home",templateUrl: "partials/home.html",controller: "PageCtrl"})
+    .state('home', {url: "/home",templateUrl: "partials/home.html",controller: "HomeCtrl"})
     .state('events', {url: "/events",templateUrl: "partials/events.html",controller: "EventsCtrl"})
-    .state('about', {url: "/about",templateUrl: "partials/about.html", controller: "PageCtrl"})
+    .state('about', {url: "/about",templateUrl: "partials/about.html", controller: "AboutCtrl"})
+    .state('aboutprofile/:profilename', {url: "/aboutprofile/:profilename",templateUrl: "partials/profile.html", controller: "ProfileCtrl"})  
     .state('photos', {url:"/photos",templateUrl: "partials/photos.html", controller: "PhotosCtrl"})
 	.state('photodetail/:imagename', {url:"/photodetail/:imagename",templateUrl: "partials/photodetail.html", controller: "PhotoDetailCtrl"})
     .state('results', {url:"/results",templateUrl: "partials/results.html", controller: "ResultsCtrl"})

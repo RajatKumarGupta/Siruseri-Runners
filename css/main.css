@@ -1,9 +1,15 @@
+body{
+	background-image:url(../images/Long_Distance_Running.jpg);
+	background-repeat: repeat-y;
+}
+
 .starter-template {
     padding: 40px 15px;
     text-align: center;
 }
 .navbar-brand {
     font-size: 22px;
+    color: white;
 }
 td, div {
     text-align: left;
@@ -12,8 +18,30 @@ td, div {
     height: 200px;
     width: 200px;
 }
-h2 {
+h1,h2,h3,h4,h5,h6 {
     text-align: justify;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+/* Glyph, by Harry Roberts */
+		
+hr.style-star {
+    padding: 0;
+    border: none;
+    border-top: medium double #e56717;
+    color: #e56717;
+    text-align: center;
+    width: 300px;
+}
+hr.style-star:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative; 
+    top: -0.7em;  
+    font-family: FontAwesome;
+    font-size: 2em;
+    padding: 0 0.25em;
+    background: #F0F0F0;
 }
 .jumbotron {
     background-color: #e56717;
@@ -21,6 +49,9 @@ h2 {
     margin-top: -20px;
     padding-bottom: 30px;
     padding-top: 30px;
+    border:none;
+    background-image: url("../images/background-grid.png");
+    background-repeat: repeat;
 }
 
 .pull-right {
@@ -40,16 +71,28 @@ h2 {
   margin-bottom:20px;
 }
 
+.promo{
+ background-color: white;
+ opacity: 0.7;
+ box-shadow: 10px 10px 5px #888888;  
+ color: black;
+ border-radius: 25px;
+ /*background: radial-gradient(#e56717, #888888, #4099ff);*/
+}
+
+.promo:hover{
+ background-color: #18bc9c;
+ color:white;
+}
 .promo #quo{
   font-size:2.3em;
 }
 .promo h2{
   font-size:1.9em;
-  font-family:'Trebuchet MS';
+  color:orange;
 }
 .promo h3{
   font-size:1.2em;
-  font-family:'Comic Sans MS';
 }
 .thumbnail{
  background-color:white;
@@ -60,16 +103,24 @@ h2 {
   border-top: 0;
   background: #c4e17f;
   border-radius: 5px;
-  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
-  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
   background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
 }
 
-/*body{
-	background-image:url(../images/sunshine.jpg);
-	background-repeat: repeat-y;
-}*/
+#disqus_thread,#content{
+  background-color: #F0F0F0 ;
+  padding:20px 20px 20px 20px;
+  border-radius: 20px;
+}
+.caption,.thumbnail{
+  background-color: #5B3256;
+  border: none;
+  opacity: 0.9;
+}
+.caption h3{
+   color:white;
+}
+
+
 /*Social Icons */
 
 .social-icon {
@@ -89,21 +140,6 @@ h2 {
     background: none repeat scroll 0 0 #d34836;
 }
 
-/* Footer */
-
-footer {
-     background-color: #e56717;
-}
-
-footer .container{
-    height: 30px;
-    margin-top: 20px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-	color:white;
-    text-align: center;
-}
-
 /* Tables */
 table, th , td {
   border: 1px solid grey;
@@ -116,3 +152,11 @@ table tr:nth-child(odd) {
 table tr:nth-child(even) {
   background-color: #ffffff;
 }
+
+/* Footer */
+#bottom-footer {
+    background-color: #e56717;
+    padding: 4px 0;
+    color:white;
+}
+
